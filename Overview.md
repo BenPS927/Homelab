@@ -4,4 +4,4 @@ This currently consists of three main projects:
 
   Pass the Comptia Network+ certification,
   Complete set up of my homelab,
-  And omplete my textbook based on the Network Plus content 
+  And complete my textbook based on the Network Plus content 
