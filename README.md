@@ -15,3 +15,5 @@ This list will surely grow as I look for more things to add, and eventually I'll
 Topology: https://github.com/BenPS927/Homelab/blob/main/homelab.topology.png
 
 Software Inventory: https://github.com/BenPS927/Homelab/edit/main/homelab.inventory.md
+
+Network Documentation: https://github.com/BenPS927/Homelab/blob/main/network%20doc%2Badmin.txt
