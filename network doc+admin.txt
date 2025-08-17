@@ -1,0 +1,56 @@
+Network configuration log
+
+Key: 
+S1 = Switch
+R1 = Router 
+ML = Management laptop 
+SPC = Server PC
+HR = Home router
+
+Interface abbreviations
+R1-F0 refers to FastEthernet port 0 on on router 1
+S1-G02 refers to GigabitEthernet port 2 on switch 1
+etc
+
+Device connections
+
+TP link (TP) set to client mode with wifi signal replicated through ethernet. 
+Router 881 (R1) connected to TP link via R1-F4.
+R1 connected to Switch C3560G (S1) via R1-F0 to S1-G01. 
+S1 connected to Management laptop (ML) via S1-G02.
+S1 connected to Server PC (SPC) via S1-G33. 
+
+Vlans
+
+S1 Vlan 10 Management created. 
+S1 Vlan 20 Operations created. 
+S1 Vlan 30 Servers created. 
+S1 Vlan 100 BFent created.
+R1 Vlan 100 BFent created.
+
+Addresses
+
+R1-F4 assigned dhcp (to receive from home router [HR]).
+R1 SVI 10.0.0.1/30 assigned to R1-F0. 
+S1 SVI 10.0.0.2/30 assigned to S1-G01.
+S1 SVI 20.0.0.1/24 assigned to S1-G02.
+S1 SVI 40.0.0.1/24 assigned to S1-G33.
+ML assigned static 20.0.0.2/24.
+SPC assigned static 40.0.0.2/24.
+
+NAT
+
+R1-F0 NAT inside.
+R1-F4 NAT outside. 
+Access-list 1 used for PAT.
+
+Access-lists
+
+R1 Access list 1 to permit traffic from 10.0.0.0, 20.0.0.0, 30.0.0.0, 40.0.0.0.
+
+
+
+
+
+
+ 
