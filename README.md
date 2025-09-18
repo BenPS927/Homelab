@@ -6,7 +6,7 @@ The set up consists of a router separating my lab from the existing home network
 
 Management/IT: Troubleshooting tools | Remote access tools | Network scanning tools
 
-Operations: Cloud practice/setup | Security tools | Advanced networking simulations | Virtual machines for applying learning concepts| Pen testing tools
+Operations: Cloud practice/setup | Security tools | Advanced networking simulations | virtualised additional 'departments' for rollout of services | Pen testing tools
 
 Servers: Monitoring tools | File storage and sharing | Network services
 
