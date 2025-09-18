@@ -1,4 +1,2 @@
-homelab inventory (software)
+Ongoing services and processes
 
-Management: Wireshark, TeraTerm, PuTTy, Nmap, VS code
-Servers: Zabbix agent
