@@ -12,8 +12,6 @@ Servers: Monitoring tools | File storage and sharing | Network services
 
 This list will surely grow as I look for more things to add, and eventually I'll work towards automating as much as possible.
 
-Topology: https://github.com/BenPS927/Homelab/blob/main/homelab.topology.png
-
-Software Inventory: https://github.com/BenPS927/Homelab/edit/main/homelab.inventory.md
+Topology: [https://github.com/BenPS927/Homelab/blob/main/homelab.topology.png](https://github.com/BenPS927/Homelab/blob/main/Topology.png)
 
 Network Documentation: https://github.com/BenPS927/Homelab/blob/main/network%20doc%2Badmin.txt
