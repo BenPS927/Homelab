@@ -1,0 +1,37 @@
+BF Enterprises General Log
+
+
+7/7/2025  | TP-Link configured to act as client for home router and replicate wifi signal through ethernet port
+	    Router plugged into TP-Link and configured for NAT/PAT
+	    Router plugged into switch. VLANs created on switch for each 'department'.
+	    PC (to be used as server) and laptop plugged into switch. PC in VLAN 30 and laptop in VLAN 10.
+9/7/2025  | Windows Server Core installed on PC via Powershell. 
+10/7/2025 | Zabbix agent downloaded on server. Zabbix setup process started.
+13/7/2025 | Zabbix setup not able to continue due to difficulties with doing it with only command line, and laptop not being able to run VM for 
+	    Zabbix agent.
+14/7/2025 | Wireshark downloaded and toyed with on laptop.
+11/9/2025 | Custom build PC, to server as Operations, added to lab in VLAN 20.
+	    Windows 11 booted on Operations via USB.
+12/9/2025 | Basic settings configured on Operations.
+	    Two VMs set up on Operations; One as Windows Server, one as windows 11. Active directory process and domain simulated between the 
+	    VMs.
+13/9/2025 | Windows Server (with GUI) booted to server from USB. 
+16/9/2025 | Active directory domain, lab.local, created on server. 
+17/9/2025 | Server VM deleted on Operations. Three further VMs (windows 11) created. All Added to lab.local. Named Sales, Sales2, Finance, 	  	    Finance2.
+19/9/2025 | User accounts created on server: Sales1, Sales2, Finance1, Finance2.
+	    OUs created on domain for each VLAN, plus one for VMs within Operations, and two in VMs further dividing Sales and Finance.
+20/9/2025 | Shared drive, s2, configured on Server, with folders for each department. Each device only has access to its specific folder.
+	    s2 mapped to each VM.
+21/9/2025 | Group policies configured on server to:	Block settings, control panel, command line and powershell for domain user accounts 
+							Increase security of finance VMs by reducing password attempts and making lock-outs 								indefinite
+	    Internet security settings set to high on Finance devices.
+24/9/2025 | Downloaded Microsoft office files.
+	    Script written to install office suite.
+	    Group policy created to use script (hosted on s2) to install office suite across VMs on startup. Unsuccessful.
+25/9/2025 | Office suite installed using script individually on each VM.
+	    Internet settings reset to medium high on finance VMs to allow for Office suite installation. 
+26/9/2025 | Laptop joined to domain. 
+	    ITsupport user created on AD server. 
+29/9/2025 | Microsoft 365 tenant paid for.
+30/9/2025 | Azure Entra Connect downloaded. 
+1/10/2025 | AD and azure bridged using entra connect; domain accounts synced. 
