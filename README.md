@@ -2,7 +2,7 @@
 
 ## This is my repo showing the progression of my homelab, named BF Enterprises as I develop it on my journey into the world of IT
 
-![Alt text]()
+![Alt text](https://github.com/BenPS927/Homelab/blob/main/Screenshot%202025-10-03%20004110.png)
 
 Click Here for the Interactive version: 
 
