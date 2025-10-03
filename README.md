@@ -16,6 +16,6 @@ To sum it up, the lab consists of a router connected to a switch, connected to a
                                     
 
 
-**Networking Documentation:** 
+**Networking Documentation:** https://github.com/BenPS927/Homelab/blob/main/BF%20Enterprises%20Networking%20log.txt
 
 **Ongoing updates:** 
