@@ -1,6 +1,6 @@
-# My Homelab
+# BF Enterprises
 
-## This is my repo showing the progression of my homelab as I develop it on my journey into the world of IT
+## This is my repo showing the progression of my homelab, named BF Enterprises as I develop it on my journey into the world of IT
 
 ![Alt text](Screenshot2025-10-03004110.png)
 
@@ -18,4 +18,4 @@ To sum it up, the lab consists of a router connected to a switch, connected to a
 
 **Networking Documentation:** https://github.com/BenPS927/Homelab/blob/main/BF%20Enterprises%20Networking%20log.txt
 
-**Ongoing updates:** 
+**Ongoing updates:** https://github.com/BenPS927/Homelab/blob/main/BF%20Enterprises%20general%20log.txt
